@@ -1,7 +1,3 @@
----
-title: "README"
-output: word_document
----
 # Getting and Cleaning Data Course Project
 This is for the Getting and Cleaning Data Course Project. The run_analysis.R script works as follows:
 
