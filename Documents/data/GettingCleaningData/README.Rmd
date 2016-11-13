@@ -1,0 +1,16 @@
+---
+title: "README"
+output: word_document
+---
+# Getting and Cleaning Data Course Project
+This is for the Getting and Cleaning Data Course Project. The run_analysis.R script works as follows:
+
+1. Loads all necessary files from the dataset while working direction contains the UCI HAR Dataset folder
+2. Combines the testing and training data for the subject data, measurement (X) data, and activity (Y) data
+	and properly names the variables in each data set
+3. Replaces the numbers in the activity data with the appropriate activity name
+4. Merges the subject, activity, and desired measurement data in to one data frame
+5. Cleans up remaining variable names
+6. Creates a tidy data set containing the mean of each variable for each combination of subject and activity
+
+The final data set in saved in a file called tidy.txt
